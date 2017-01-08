@@ -1,0 +1,44 @@
+.hide {
+  display: none;
+}
+
+.filter-done .todo {
+  display: none;
+}
+
+.filter-done .done {
+  display: list-item;
+}
+
+.filter-active .done {
+  display: none;
+}
+
+.done .title {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.title {
+  margin-right: 1em;
+}
+
+.undo-button {
+  display: none;
+}
+
+.done .done-button {
+  display: none;
+}
+
+.done .undo-button {
+  display: inline;
+}
+
+.counter {
+  margin-right: 1em;
+}
+
+.active {
+  font-weight: bold;
+}
